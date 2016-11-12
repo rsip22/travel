@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="700"
+   height="700"
+   viewBox="0 0 700 700"
+   alt="Assinatura visual DZ Estúdio"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="logo-gray-off.svg">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     pagecolor="#f6f6f6"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1185"
+     inkscape:window-height="666"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="0.33714286"
+     inkscape:cx="345.47279"
+     inkscape:cy="350"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <path
+     d="M540 276.5L414.4 427H540v41.4H358.7V427l123.8-150.8H358.7V235H540v41.3zM352 397.3c-4.5 15-11.4 28.2-21 38.7-9.5 10.6-21.8 18.8-36.3 24.4-14 5.4-31 8-50 8h-84.2V235h84c36 0 64 9.5 84 28 20 18.6 30 46.8 30 83.6 0 18.8-2.3 35.8-6.6 50.6M0 702h700V1.8H.3v700z"
+     id="path4"
+     style="fill:#1d1e1c;fill-opacity:1" />
+  <path
+     d="M297.3 295c-5-6-11.3-10.5-19-13.8-8.3-3.2-18.8-5-31-5H205v151.3h41c3 0 7-.3 11.6-.8 4.3-.3 8.8-1.4 13.8-3 4.7-2.2 9.5-4.7 14.2-7.6 4.4-3 8.8-7.3 12-12.3 4-5.7 7-12.5 9.5-21.2 2.7-8.8 4-19.5 4-32s-1.3-23.4-3.5-33c-2.3-8.6-6-16.4-11-22.4"
+     id="path6"
+     style="fill:#1d1e1c;fill-opacity:1" />
+</svg>
