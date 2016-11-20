@@ -130,121 +130,155 @@
         </header>
       </div> <!-- /row -->
     </div> <!-- /container -->
+
     <main id="main">
       <div class="container-fluid">
-        <div class="col-md-12 no-padding">
+        <div class="row">
+          <div class="col-md-12 no-padding">
+            <!-- Carousel -->
+            <div id="banner" class="carousel slide" data-ride="carousel" data-interval="false">
+              <div class="carousel-inner" role="listbox">
+                <div class="item filter blue-filter active">
+                  <picture>
+                    <source srcset="img/banner-landscape-xs.png" media="(max-width: 767px)">
+                    <source srcset="img/banner-landscape-sm.png" media="(max-width: 991px)">                    
+                    <source srcset="img/banner-landscape-md.png" media="(max-width: 1199px)">
+                    <source srcset="img/banner-landscape-lg.png" media="(min-width: 1200px)">
+                    <source srcset="img/banner.png">                    
+                    <img src="img/banner-landscape-lg.png" alt="Homem sentado de costas, olhando o horizonte de uma cidade. Uma mulher está deitada com a cabeça no seu colo."> 
+                  </picture>
+                  <div class="carousel-caption">
+                    <h1 class="text-uppercase title">Melhores destinos</h1>
+                    <p class="text-center description">Percebemos, cada vez mais, que o novo modelo estrutural aqui preconizado faz parte de um processo de gestão de alternativas às soluções ortodoxas.</p>
+                  </div>
+                </div>
 
-          <!-- TODO: slider/carrousel com as outras imagens/textos -->
-          <div class="row">
-            <div id="banner"> <!-- Banner image + blue filter -->
-              <i class="fa fa-angle-left fa-5x font-white" aria-hidden="true"></i>
-              <i class="fa fa-angle-right fa-5x font-white" aria-hidden="true"></i>
-              <div>
-                <h1 class="text-uppercase title">Melhores destinos</h1>
-                <p class="text-center description">Percebemos, cada vez mais, que o novo modelo estrutural aqui preconizado faz parte de um processo de gestão de alternativas às soluções ortodoxas.</p>
+                <div class="item filter darker-filter">
+                  <picture>
+                    <source srcset="img/banner02-landscape-xs.png" media="(max-width: 767px)">
+                    <source srcset="img/banner02-landscape-sm.png" media="(max-width: 991px)">                    
+                    <source srcset="img/banner02-landscape-md.png" media="(max-width: 1199px)">
+                    <source srcset="img/banner02-landscape-lg.png" media="(min-width: 1200px)">
+                    <source srcset="img/banner02-landscape-lg.png">
+                    <img src="img/img/banner02-landscape-lg.png" alt="Mulher com mochila nas costas, segurando o chapéu, observando um lago ao fundo"> 
+                  </picture>
+                  <div class="carousel-caption">
+                    <h1 class="text-uppercase title">Caros amigos</h1>
+                    <p class="text-center description">O comprometimento entre as equipes não pode mais se dissociar dos índices pretendidos. Percebemos, cada vez mais, que o surgimento do comércio virtual causa impacto indireto na reavaliação das posturas.</p>
+                  </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#banner" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#banner" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div> <!--  /carousel-inner -->
+              <div class="backshape bg-default" aria-hidden="true">
               </div>
-            </div>          
-          </div>
-          <div class="row diagonal">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" 
-              preserveAspectRatio="none"> <!-- TODO: fix svg position -->
-              <polygon points="100 0 0 10 0 15900" class="blue-fill on-top" />
-            </svg>
-          </div>
-
-          <div class="row text-center">
-            <section> <!-- TODO: fix the pictures -->
-              <h2 class="text-uppercase bold-gray higher-2">O que você procura?</h2>
+            </div>  <!-- End of carousel -->
+          </div> <!-- End of col-md-12 -->
+        </div> <!-- End of row -->
+          
+        <div class="row text-center">
+          <div class="col-md-12 no-padding">
+            <section>
+              <h2 class="text-uppercase bold-gray">O que você procura?</h2>
               <hr class="underline-accent text-warning">
               <div class="col-md-8 col-md-offset-2">
                 <div class="col-lg-4">
                   <article>
-                    <img class="img-circle img-responsive blue-border casas" src="img/casa_no_campo.png" alt="Generic placeholder image" id="campo">
+                    <img class="img-responsive blue-border casas" src="img/casa_no_campo.png" alt="Generic placeholder image" id="campo">
                     <h3 class="text-uppercase">Casa no campo</h3>
                     <p>Neste sentido, a mobilidade dos capitais internacionais acarreta um processo de reformulação e modernização.</p>
                   </article>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
                   <article>
-                    <img class="img-circle img-responsive blue-border casas" src="img/casa_na_praia.png" alt="Generic placeholder image" id="praia">
+                    <img class="img-responsive blue-border casas" src="img/casa_na_praia.png" alt="Generic placeholder image" id="praia">
                     <h3 class="text-uppercase">Casa na praia</h3>
                     <p>É importante questionar o quanto o surgimento do comércio virtual apresenta uma abertura.</p>
                   </article>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
                   <article>
-                    <img class="img-circle img-responsive blue-border casas" src="img/casa_urbana.png" alt="Generic placeholder image" id="urbana">
+                    <img class="img-responsive blue-border casas" src="img/casa_urbana.png" alt="Generic placeholder image" id="urbana">
                     <h3 class="text-uppercase">Casa urbana</h3>
                     <p>O empenho em analisar o acompanhamento das preferências de consumo oferece uma interessante</p>
                   </article>
                 </div><!-- /.col-lg-4 -->
               </div>
             </section>
-          </div><!-- /.row -->
+          </div> <!-- col-12-no-padding -->
+        </div><!-- /.row -->
 
-          <div class="row gray-dark gray-padding">
-            <h2 class="text-uppercase text-center bold-gray higher-2">Sobre as nossas acomodações</h2>
-            <hr class="underline-accent text-success">
-              <div class="col-md-8 col-md-push-2">
-              <table> <!-- TODO - 1 column wide on mobile -->
-                <tr>
-                  <th class="text-center text-uppercase">Sobre o apartamento</th>
-                  <th class="text-center text-uppercase">Sobre a casa</th>
+        <div class="row gray-dark gray-padding">
+          <h2 class="text-uppercase text-center bold-gray higher-2">Sobre as nossas acomodações</h2>
+          <hr class="underline-accent text-success">
+            <div class="col-md-8 col-md-push-2">
+            <table> <!-- TODO - 1 column wide on mobile -->
+              <tr>
+                <th class="text-center text-uppercase">Sobre o apartamento</th>
+                <th class="text-center text-uppercase">Sobre a casa</th>
+              </tr>
+              <tr class="text-justify">
+                <td><p>O que temos que ter sempre em mente é que a determinação clara de objetivos cumpre um papel essencial na formulação do sistema de participação geral. Percebemos, cada vez mais, que a consulta aos diversos militantes promove a alavancagem das novas proposições.</p></td>
+                <td><p >As experiências acumuladas demonstram que a execução dos pontos do programa ainda não demonstrou convincemente que vai participar na mudança das formas de ação. Desta maneira, a consulta aos diversos militantes promove a alavancagem de todos os recursos funcionais envolvidos.</p></td>
                 </tr>
-                <tr class="text-justify">
-                  <td><p>O que temos que ter sempre em mente é que a determinação clara de objetivos cumpre um papel essencial na formulação do sistema de participação geral. Percebemos, cada vez mais, que a consulta aos diversos militantes promove a alavancagem das novas proposições.</p></td>
-                  <td><p >As experiências acumuladas demonstram que a execução dos pontos do programa ainda não demonstrou convincemente que vai participar na mudança das formas de ação. Desta maneira, a consulta aos diversos militantes promove a alavancagem de todos os recursos funcionais envolvidos.</p></td>
-                  </tr>
-                <tr class="text-center">
-                  <td><button class="btn btn-success text-uppercase">Saber mais</button></td>
-                  <td><button class="btn btn-success text-uppercase">Saber mais</button></td>
-                </tr>
-              </table>
-            </div>
-          </div> <!-- ./row -->
-
-          <div class="row" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" 
-            preserveAspectRatio="none">
-              <polygon points="100 0 100 10 0 10" class="blue-fill" />
-            </svg>
+              <tr class="text-center">
+                <td><button class="btn btn-success text-uppercase">Saber mais</button></td>
+                <td><button class="btn btn-success text-uppercase">Saber mais</button></td>
+              </tr>
+            </table>
           </div>
+        </div> <!-- ./row -->
 
-          <!-- Contact form -->
-          <!-- TODO: validation -->
-          <div class="row">
-            <div class="container-fluid bg-info higher-10">
-              <div class="font-white">
-                <div class="col-sm-6 col-md-5 col-sm-offset-3 col-md-offset-3">
-                  <h2 class="text-uppercase text-center">Ficou interessado?</h2>
-                  <h6 class="text-center">Preencha o formulário e entre em contato conosco!</h6>
-                  <form class="text-uppercase">
-                    <div class="form-group">
-                        <label for="name">Nome:</label>
-                        <input type="text" class="form-control" id="name" placeholder="LUCIANO RICARDO">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">E-mail:</label>
-                        <input type="email" class="form-control" id="email" placeholder="LUCIANORICARDO@GMAIL.COM">
-                    </div>
-                    <div class="form-group">
-                      <label for="telephone">Telefone:</label>
-                      <input type="tel" class="form-control" id="telephone" placeholder="51 9999-7777">
-                    </div>
-                    <div class="form-group">
-                      <label for="comment">Mensagem:</label>
-                      <textarea class="form-control" rows="3" id="comment" placeholder="OLÁ, GOSTARIA DE MAIS INFORMAÇÕES SOBRE AS ACOMODAÇÕES EM CASAS NA PRAIA. OBRIGADO!"></textarea>
-                    </div>
-                    <div class="text-center">
-                      <button type="submit" class="btn btn-success text-uppercase">Enviar</button>
-                    </div>
-                  </form>
-                </div> 
-              </div> <!-- /font-white -->
-            </div> <!-- /container -->
-          </div> <!-- /row -->
+        <div class="row" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" 
+          preserveAspectRatio="none">
+            <polygon points="100 0 100 10 0 10" class="blue-fill" />
+          </svg>
+        </div>
+
+        <!-- Contact form -->
+        <!-- TODO: validation -->
+        <div class="row">
+          <div class="container-fluid bg-info higher-10">
+            <div class="font-white">
+              <div class="col-sm-6 col-md-5 col-sm-offset-3 col-md-offset-3">
+                <h2 class="text-uppercase text-center">Ficou interessado?</h2>
+                <h6 class="text-center">Preencha o formulário e entre em contato conosco!</h6>
+                <form class="text-uppercase">
+                  <div class="form-group">
+                      <label for="name">Nome:</label>
+                      <input type="text" class="form-control" id="name" placeholder="LUCIANO RICARDO">
+                  </div>
+                  <div class="form-group">
+                      <label for="email">E-mail:</label>
+                      <input type="email" class="form-control" id="email" placeholder="LUCIANORICARDO@GMAIL.COM">
+                  </div>
+                  <div class="form-group">
+                    <label for="telephone">Telefone:</label>
+                    <input type="tel" class="form-control" id="telephone" placeholder="51 9999-7777">
+                  </div>
+                  <div class="form-group">
+                    <label for="comment">Mensagem:</label>
+                    <textarea class="form-control" rows="3" id="comment" placeholder="OLÁ, GOSTARIA DE MAIS INFORMAÇÕES SOBRE AS ACOMODAÇÕES EM CASAS NA PRAIA. OBRIGADO!"></textarea>
+                  </div>
+                  <div class="text-center">
+                    <button type="submit" class="btn btn-success text-uppercase">Enviar</button>
+                  </div>
+                </form>
+              </div> 
+            </div> <!-- /font-white -->
+          </div> <!-- /container -->
+        </div> <!-- /row -->
         </div> <!-- /col-md-12 no-padding -->
-      </div> <!-- /container -->
+      </div> <!-- /container-fluid -->
     </main>
 
     <footer> <!-- TODO: fix .svg fallbacks -->
@@ -263,15 +297,17 @@
       </div>
     </footer>
 
+    <!-- TODO: otimização do carregamento, SEO -->
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
 
-    <!-- TODO: otimização do carregamento, SEO -->
+    <!-- jQuery Version 3.1.1 -->
+    <script src="js/jquery-3.1.1.min.js"></script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery-1.12.4.min.js"></script>
 
   </body>
 </html>
